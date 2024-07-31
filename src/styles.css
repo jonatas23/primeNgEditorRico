@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "../node_modules/quill/dist/quill.core.css";
+@import "../node_modules/quill/dist/quill.snow.css";
+
+/* Estilos personalizados para p-accordion e p-accordionTab */
+.custom-accordion .p-accordion-header,
+.custom-accordion .p-accordion-content,
+.custom-accordion-tab .p-accordion-header,
+.custom-accordion-tab .p-accordion-content {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.custom-accordion .p-accordion-header .p-accordion-header-link {
+  background-color: transparent !important;
+  border: none !important;
+  color: inherit; /* Mantém a cor do texto padrão */
+}
+
+/* Estilos personalizados para p-listbox */
+.custom-listbox .p-listbox,
+.custom-listbox .p-listbox-list,
+.custom-listbox .p-listbox-item {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 5px 10px;
+}

@@ -1,0 +1,25 @@
+.editor-container {
+  width: 100%;
+  height: 100vh; /* ou qualquer altura que você desejar */
+  display: flex;
+  flex-direction: column;
+}
+
+::ng-deep .ui-editor-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+::ng-deep .ui-editor-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+::ng-deep .ui-editor-content > .ui-editor-content-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
