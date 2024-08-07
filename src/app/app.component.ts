@@ -6,7 +6,7 @@ import {ListboxModule} from 'primeng/listbox';
 import {DialogModule} from 'primeng/dialog';
 import {Button} from 'primeng/button';
 import {AccordionModule} from 'primeng/accordion';
-import {NgFor} from '@angular/common';
+import {NgFor, NgIf} from '@angular/common';
 import {SplitterModule} from 'primeng/splitter';
 import {PanelModule} from 'primeng/panel';
 
@@ -24,7 +24,8 @@ import {PanelModule} from 'primeng/panel';
     Button,
     SplitterModule,
     PanelModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgIf
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
